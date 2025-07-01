@@ -13,13 +13,11 @@ header{
 .navbar-brand{
    margin-top: -189px;
    height: 90px;
-   width: 290px;
-
-    
+   width: 290px;    
 }
 
 .navbar-nav{
-     margin-left: 15vw;
+     margin-left: 13vw;
      font-size: 13px;
      font-weight: bold;
      font-family: Cinzel, serif;
