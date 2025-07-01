@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
 header{
     height: 90px;
     width: 100%;
@@ -9,11 +11,13 @@ header{
       width: 100%;
 }
 .navbar-brand{
-    font-size: 30px;
-    padding-left: 40px ;
-    /* font-weight:initial; */
-    font-family: Cinzel, serif;
+   margin-top: -189px;
+   height: 90px;
+   width: 290px;
+
+    
 }
+
 .navbar-nav{
      margin-left: 15vw;
      font-size: 13px;
