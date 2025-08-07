@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+
+header {
+    height: 90px;
+    width: 100%;
+    z-index: 20;
+    position: fixed;
+}
+
+.navbar {
+    height: 90px;
+    width: 100%;
+}
+
+.navbar-brand {
+    margin-top: -189px;
+    height: 90px;
+    width: 290px;
+}
+
+.navbar-nav {
+    margin-left: 13vw;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Cinzel, serif;
+    gap: 10px;
+}
+
+.icon-box {
+    font-weight: 100;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+.menu-hide {
+    display: none;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: bold;
+    font-family: cinzel, serif;
+}
+
+.nav-icon {
+    color: #000;
+    padding-left: 10px;
+    font-family: Cinzel, serif;
+}
+
+/* Content css */
+.content-img {
+    width: 100%;
+    height: 620px;
+    background-image: url('./content.jpg');
+    background-size: cover;
+    background-position: content;
+}
+
+.cont-hd {
+    padding-top: 540px;
+    padding-left: 20px;
+    border-bottom: 1px solid black;
+    width: 95%;
+    margin-left: 20px;
+}
+
+.cont-nt {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.cont-p {
+    text-align: center;
+    width: 70%;
+    margin-left: 160px;
+}
+
+/* shopping css */
+.shoping-section {
+    margin-top: 40px;
+}
+
+.shop-box1 {
+    display: flex;
+    gap: 30px;
+}
+
+.card-text {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Cinzel, serif;
+    padding-top: 15px;
+}
+
+.card-price {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Cinzel, serif;
+    margin-top: -18px;
+    color: rgba(0, 0, 0, 0.459);
+}
+
+/* #footer css */
+footer {
+    margin-top: 120px;
+}
+
+.foot-hd {
+    font-size: 13px;
+    font-family: Cinzel, serif;
+    margin-left: 90px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.foot-btn {
+    font-size: 10px;
+    font-family: cinzel, serif;
+    text-transform: uppercase;
+    margin-left: 90px;
+    border: 1px solid black;
+    width: 210px;
+    padding: 8px 15px 8px 25px;
+    margin-top: 40px;
+}
+
+.last-section {
+    margin-left: 48px;
+    font-size: 13px;
+    font-family: cinzel, serif;
+    margin-top: 40px;
+
+}
+
+.last-section ul {
+    list-style-type: none;
+}
+
+.last-section li {
+    padding: 10px;
+}
+
+/* # Page-1 New Arrivals */
+.content-img-2 {
+    background-image: url('./content-2.webp');
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 270px;
+}
+
+.cont2-hd {
+    padding-top: 150px;
+    text-align: center;
+    font-size: 45px;
+    font-family: cinzel, serif;
+    /* font-weight: bold; */
+    color: #ffffffaf;
+
+}
+
+.cont2-nots {
+    width: 50%;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.cont2-nt {
+    font-family: serif;
+    font-size: 42px;
+}
+
+.cont2-p {
+    font-family: serif;
+    color: #00000073;
+}
+
+.section-card {
+    margin-top: 60px;
+}
+
+.card-box-01 {
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+}
+
+.card-box-01 .card {
+    border: none;
+}
+
+/* # Content-pages */
+.content-page {
+    padding-top: 190px;
+    text-align: center;
+}
+
+.content-page a {
+    text-decoration: none;
+    color: #000;
+}
+
+.cont-text {
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.598);
+    padding-bottom: 70px;
+}
+
+.bio-id {
+    margin-top: 90px;
+}
+
+@media only screen and (max-width: 767px) {
+    .header {
+        width: 100%;
+        height: 90px;
+    }
+
+    .icon-box {
+        display: none;
+    }
+
+    .menu-hide {
+        display: block;
+        border: 0.5px solid black;
+        padding: 5px 8px 5px 8px;
+        border-radius: 4px;
+    }
+
+    .navbar-brand {
+        padding-top: 40px;
+        height: 90px;
+        width: 210px;
+    }
+    .cont-nots{
+        width: 90%;
+    }
+    .cont-nt {
+       margin-left: 70px ;
+   }
+
+  .cont-p {
+    text-align: center;
+    width: 70%;
+    margin-left: 120px;
+   }
+   .content{
+    width: 100%;
+   }
+   .shop-box1 {
+    display: flex;
+    gap: 10px;
+    margin: 0 8px 0 8px;
+   }
+   .foot-hd {
+      margin-left: 40px;
+   }
+   .foot-btn {
+      margin-left: 36px;
+   }
+   .last-section {
+       margin-left: 0px;
+   }
+   /* #page 2 */
+   .content-img-2{
+      width: 105%;
+     height: 370px;
+   }
+   .cont2-hd{
+      padding-top: 205px;
+      font-size: 2rem;
+      font-weight: bold;
+   }
+   .cont2-nots{
+      width: 100%;
+   }
+   .section-card{
+      width: 100%;
+      gap: 6px;
+      margin-left: -30px;
+   }
+   .card-text{
+      font-size: 9px;
+   }
+   .card-price{
+      font-size: 10px;
+      padding-top: 8px;
+   }
+   .card-box-01{
+    width: 100%;
+   }
+ 
+   
+}
+
+@media only screen and (max-width: 480px) {
+     .header {
+        width: 100%;
+        height: 90px;
+    }
+    .navbar-brand {
+        padding-top: 63px;
+        height: 90px;
+        width: 160px;
+    }
+    .cont-nots{
+        width: 90%;
+    }
+    .cont-nt {
+       margin-left: 43px ;
+   }
+
+  .cont-p {
+    text-align: center;
+    width: 90%;
+    margin-left: 45px;
+   }
+    .content{
+        width: 100%;
+    }
+    .content-img {
+        width: 100%;
+        background-size: cover;
+        background-position: content;
+    }
+    .cont-hd{
+        font-weight: bold;
+        font-size: 20px;
+        
+    }
+    /* #page 2 */
+    .content-img-2{
+        width: 117.5%;
+    }
+    .card-box-01{
+        flex-direction: column;
+        margin-left: 90px;
+    }
+   .card-text{
+      font-size: 15px;
+   }
+   .card-price{
+      font-size: 19px;
+      padding-top: 8px;
+   }
+
+}
