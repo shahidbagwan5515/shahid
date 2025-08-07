@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/shahid/static/css/main.afc6219a.css",
+    "main.js": "/shahid/static/js/main.f70fb76d.js",
+    "static/js/453.96453769.chunk.js": "/shahid/static/js/453.96453769.chunk.js",
+    "static/media/Resume.pdf": "/shahid/static/media/Resume.da44d3f62d757b3a250d.pdf",
+    "index.html": "/shahid/index.html",
+    "main.afc6219a.css.map": "/shahid/static/css/main.afc6219a.css.map",
+    "main.f70fb76d.js.map": "/shahid/static/js/main.f70fb76d.js.map",
+    "453.96453769.chunk.js.map": "/shahid/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afc6219a.css",
+    "static/js/main.f70fb76d.js"
+  ]
+}
